@@ -1,0 +1,258 @@
+#Mi-Historia {
+    width: 100%;  
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+    /* Centra verticalmente */
+}
+#centrador-mi-historia{
+       width: 40%;
+       text-align: center;
+       background-color: rgba(0, 255, 255, 0);
+       
+}
+#centrador-mi-historia h1{
+    margin-top: 2%;
+    color: white;
+    font-size: 120%;
+}
+
+#centrador-mi-historia #Titulo{
+    margin-top: 10%;
+    color: white;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+#presentacion-blanco{
+    background-image: linear-gradient(to bottom,#585288,#68648a );/*Color degradado*/
+    /*background-image: linear-gradient(to bottom, #382d97, #585288);/*Color degradado*/
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    top: 0;
+    padding-top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#tabla-presentacion-blanco{
+    width: 92%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0% ;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#Mis-Conocimientos-Diseño-foto{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.24);
+    }
+    #Mis-Conocimientos-Desarrollador-foto{
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        text-align: center;
+    }
+    #Mis-Conocimientos-Analista-foto{
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        text-align: center;
+        border-left: 2px solid rgba(0, 0, 0, 0.24);
+    }
+
+    #tabla-presentacion-blanco img{
+        width: 30%;
+        margin-top: 5%;
+     }
+
+
+     
+/*Tablet*/
+@media (min-width: 950px) and (max-width: 1500px) {
+    .nav-text {
+        padding-right: 4%;
+    }
+
+
+
+}
+/*celular*/
+@media  (min-width: 10px) and (max-width:949px){
+    .nav-text{
+        padding-left: 0%;
+    }
+    #centrador-mi-historia #Titulo{
+      
+        font-size: 100%;
+      
+    }
+    #centrador-mi-historia h1{
+        margin-top: 2%;
+        color: white;
+        font-size: 70%;
+    }
+    #tabla-presentacion-blanco img{
+        width: 30%;
+        margin-top: 5%;
+     }
+     #presentacion-blanco{
+        background-image: linear-gradient(to bottom,#585288,#68648a );/*Color degradado*/
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+/*------------------------------------------------*/
+#Mis-Conocimientos{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+#Mis-Conocimientos img{
+   width: 30%;
+   margin-top: 5%;
+}
+
+
+#Mis-Conocimientos-Diseño{
+background-color: rgb(255, 255, 255);
+width: 30%;
+text-align: center;
+border-right: 1px solid rgba(0, 0, 0, 0.24);
+}
+#Mis-Conocimientos-Desarrollador{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+}
+#Mis-Conocimientos-Analista{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    border-left: 2px solid rgba(0, 0, 0, 0.24);
+}
+
+#Cuadro-presentacion-blanco{
+    width: 92%;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 8%;
+    padding-bottom: 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#Cuadro-presentacion-blanco h1{
+    font-size: 200%;
+}
+#Cuadro-presentacion-blanco h2{
+    font-size: 100%;
+    color: rgb(95, 95, 95);
+}
+#Cuadro-presentacion-blanco .letra-rosa{
+    color: blueviolet;
+}
+
+/*Tablet*/
+@media (min-width: 950px) and (max-width: 1500px) {
+    .nav-text {
+        padding-right: 4%;
+    }
+
+
+
+}
+/*celular*/
+@media  (min-width: 10px) and (max-width:949px){
+    .nav-text{
+        padding-left: 0%;
+    }
+    #Cuadro-presentacion-blanco h1{
+        font-size: 100%;
+    }
+    #Cuadro-presentacion-blanco h2{
+        font-size: 60%;
+        color: rgb(95, 95, 95);
+    }
+}
+
+/*-------------------------------------------------------------*/
+#Mis-Testimoneos{
+    text-align: center;
+}
+#Mis-Testimoneos h1{ 
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 5%;
+    
+}
+#Mis-Testimoneos h2{ 
+    text-align: center;
+    font-size: 102%; 
+}
+#Mis-Testimoneos #h2-pascal{ 
+    text-align: center;
+    font-size: 102%;
+    margin-top: 6%;
+    color: rgb(122, 122, 122);
+}
+#Mis-Testimoneos h3{ 
+    text-align: center;
+    font-size: 90%; 
+}
+#Mis-Testimoneos img{ 
+   width: 10%;
+   margin: 4%;
+}
+#id-tes-centrar{
+    background-color: rgba(42, 165, 83, 0);
+    width: 30%;
+    margin-left: 35%;
+    font-size: 150%;
+}
+
+/*Tablet*/
+@media (min-width: 950px) and (max-width: 1500px) {
+    .nav-text {
+        padding-right: 4%;
+    }
+
+
+
+}
+/*celular*/
+@media  (min-width: 10px) and (max-width:949px){
+    .nav-text{
+        padding-left: 0%;
+    }
+    #Mis-Testimoneos h2{ 
+        text-align: center;
+        font-size: 42%; 
+    }
+
+    #Mis-Testimoneos #h2-pascal{ 
+        text-align: center;
+        font-size: 42%;
+        margin-top: 6%;
+        color: rgb(122, 122, 122);
+    }
+    #Mis-Testimoneos h3{ 
+        text-align: center;
+        font-size: 30%; 
+    }
+}

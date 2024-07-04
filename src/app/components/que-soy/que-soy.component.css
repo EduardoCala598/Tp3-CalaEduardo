@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#Que-es-un-Programador, #Que-es-un-Ingeniero-Informatico, #Fusion-Carreras {
+    background-color: #e9ecef;
+}
+
+#Que-es-un-Programador .display-4, #Que-es-un-Ingeniero-Informatico .display-4, #Fusion-Carreras .display-4 {
+    color: #343a40;
+}
+
+#Que-es-un-Programador .lead, #Que-es-un-Ingeniero-Informatico .lead, #Fusion-Carreras .lead {
+    color: #6c757d;
+}
+
+.ratio {
+    margin-top: 20px;
+}
+
+.card-title {
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+

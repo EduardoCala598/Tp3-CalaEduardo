@@ -1,0 +1,60 @@
+.Text-Principal{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(222, 184, 135, 0);
+    text-align: center;
+    font-weight: bold;
+    }
+    .Text-Principal h1{
+        font-size: 400%;
+        }
+    .Text-Secundario h1{
+        font-size: 20px;
+        }
+    .Text-Secundario{
+        width: 100%;
+        height: 20%;
+        background-color: rgba(95, 57, 8, 0);
+        text-align: center;
+    }
+    .Foto-Animada{
+        width: 100%;
+        height: 60%;
+        background-color: rgba(31, 28, 25, 0);
+        text-align: center;
+    }
+    .Foto-Animada img{
+      padding-top: 3%;
+    }
+    .Foto-Animada2{
+        width: 100%;
+        height: 60%;
+        background-color: rgba(31, 28, 25, 0);
+        text-align: center;
+    }
+    .Foto-Animada2 img{
+        padding-top: 10%;
+        width: 90%;
+        height: 60%;
+        background-color: rgba(31, 28, 25, 0);
+        text-align: center;
+    }
+
+/*Tablet*/
+@media (min-width: 950px) and (max-width: 1500px) {
+    .nav-text {
+        padding-right: 4%;
+    }
+
+
+
+}
+/*celular*/
+@media  (min-width: 10px) and (max-width:949px){
+    .nav-text{
+        padding-left: 0%;
+    }
+    .Text-Principal h1{
+        font-size: 355%;
+        }
+}

@@ -1,0 +1,53 @@
+.Logo-Nav{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar{
+    height: 100%;
+    background: rgba(236, 14, 14, 0) !important;
+   
+}
+.container-fluid{
+    background-color: rgb(255, 255, 255)
+}
+
+
+.navbar-nav {
+    font-size: 150%;
+}
+
+.container-fluid a{
+    font-size: 100%;
+}
+.Contenedor-Header{
+    width: 100%;
+   
+}
+
+.container-fluid #LogoNombre{
+    font-size: 200%;
+    padding-top: 1%;
+    color: rgb(64, 40, 87);
+}
+
+#LogoNombre {
+    font-family: 'Brush Script MT', cursive;
+    
+}
+/*Tablet*/
+@media (min-width: 950px) and (max-width: 1500px) {
+    .nav-text {
+        padding-right: 4%;
+    }
+
+
+
+}
+/*celular*/
+@media  (min-width: 10px) and (max-width:949px){
+    .nav-text{
+        padding-left: 0%;
+    }
+}

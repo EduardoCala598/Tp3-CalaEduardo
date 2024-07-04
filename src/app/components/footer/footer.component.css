@@ -1,0 +1,68 @@
+footer{
+    margin: 0px !important;
+}
+footer img{
+    margin-top: 2%;
+    width: 7%;
+    height: 30%;
+    margin-left: 47%;
+}
+#id-frase-footer{
+    margin-top: 1%;
+    height: 30%;
+    width: 30%;
+    background-color: rgba(14, 141, 31, 0);
+    text-align: center;
+    color: white;
+    font-size: 10%;
+    margin-left: 36%;
+    
+}
+#id-frase-footer h1{ 
+    font-size: 1000%;
+}
+
+#link-awesome{
+    text-align: center;
+}
+#link-awesome i{
+    padding-left: 2%;
+}
+
+footer #robot-animado{
+    margin-left: 50%;
+    padding-top: 30px;
+}
+/*.--------------------------------------------*/
+#text{
+  
+    text-align: center;
+    margin: 0;
+    
+}
+
+/*Tablet*/
+@media (min-width: 950px) and (max-width: 1500px) {
+    .nav-text {
+        padding-right: 4%;
+    }
+
+
+
+}
+/*celular*/
+@media  (min-width: 10px) and (max-width:949px){
+    .nav-text{
+        padding-left: 0%;
+    }
+    #text{
+        font-size: 600% !important;
+    }
+    footer #robot-animado{
+        margin-left: 49%;
+        padding-top: 30px;
+    }
+}
+
+
+

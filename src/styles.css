@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(240, 20, 20, 0);
+}
+
+header{
+    top: 0;
+    width: 100%;
+    height: 4em;
+    background-color: red;
+   position: fixed;
+   z-index: 1000;/*Esta propiedad iso que las imagenes estan por debajo del header*/
+}
+#PanelInvisible-Heder{
+    top: 0;
+    width: 100%;
+    height: 5em;
+    background-color: rgba(135, 243, 12, 0);
+    margin-bottom: 0px;
+}
+#PanelImvisible-Footer{
+    background-color: rgb(130, 201, 43);
+    width: 100%;
+    height: 9em;
+    bottom: 0;
+    margin-top: 0;
+    
+}
+footer{
+    
+    background-image: linear-gradient(to bottom,#585288,#68648a );/*Color degradado*/
+    width: 100%;
+    height: 10em;
+    bottom: 0px;
+}
+#Presentacion{
+    background-color: rgba(245, 242, 242, 0.767);
+    margin-bottom: 0;
+    padding: 20px;
+    
+}
+
+#Mi-Historia{
+    background-image: linear-gradient(to bottom, #382d97, #585288);/*Color degradado*/
+    margin-bottom: 0px;
+    padding: 20px;
+    top: 0;
+}
+#Mis-Conocimientos{
+    background-color: rgba(245, 242, 242, 0.767);
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+#Mis-Trabajos{
+    background-color: rgba(245, 242, 242, 0.767);
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+#Mis-Testimoneos{
+    background-color: rgba(245, 242, 242, 0.767);
+    margin-bottom: 0px;
+    padding: 20px;
+}
+#Mis-Contacto{
+    background-color: rgba(245, 242, 242, 0.767);
+    padding: 20px;  
+    
+}
+

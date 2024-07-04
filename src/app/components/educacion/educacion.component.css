@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#Mi-Educacion-y-Carrera {
+    background-color: #e9ecef;
+}
+
+#Mi-Educacion-y-Carrera .display-4 {
+    color: #343a40;
+}
+
+#Mi-Educacion-y-Carrera .lead {
+    color: #6c757d;
+}
+
+#Mis-Trabajos h1 {
+    color: #343a40;
+}
+
+#centrador-certificados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*ñññññññññññññññññññññññññññññññññññ*/
+
+#Mis-Trabajos h1{
+    text-align: center;
+   
+}
+#Mis-Trabajos{
+    width: 100%;
+}
+
+
+ 
+
+#ubicacion{                    
+    text-align: center;
+}
+
+
+#centrador-certificados{
+    width: 90%;
+    background-image: linear-gradient(to bottom,#585288,#68648a );/*Color degradado*/
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.carousel-caption {
+    color: rgb(255, 255, 255) !important; /* Establece el color del texto a negro */
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+    border: black solid 1px;
+    padding: 40% !important;
+    border-radius: 10%;
+    background-color: black;
+    margin-right: 20% !important;
+   
+}
+.carousel-control-next-icon{
+    margin-left: 40% !important;
+}
